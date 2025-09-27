@@ -57,7 +57,7 @@ Step 9: Visualize the Decision Tree
 Plot the decision tree using sklearn.tree.plot_tree to understand the decision rules.
 
 ## Program:
-python
+```python
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
 Developed by:  S SYED SUHAIB
 RegisterNumber: 25013757
@@ -105,6 +105,7 @@ print("\nClassification Report:\n", classification_report(y_test, y_pred))
 plt.figure(figsize=(20,10))
 plot_tree(clf, feature_names=X.columns, class_names=["Stay","Left"], filled=True)
 plt.show()
+```
 
 
 
